@@ -1,0 +1,155 @@
+@media (max-width: 768px) {
+
+    .counting_left_item {
+        text-align: left;
+        padding: 30px 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .head_title h1 {
+        font-size: 25px;
+    }
+
+    .head_title p {
+        font-size: 14px;
+    }
+
+    .ssimage {
+        top: 70px;
+
+    }
+    .read_more{
+        margin-bottom:80px;
+    }
+
+    #video {
+        height: 200px;
+    }
+
+    .video_cover {
+        height: 200px;
+    }
+
+    #welcome h1 {
+        font-size: 25px;
+    }
+
+    .video_area {
+        margin-bottom: 0px !important;
+    }
+
+    .dotted_head_title h1 {
+        padding-bottom: 10px;
+        border-bottom: 1px dotted #ddd;
+    }
+
+    .community .single_item {
+        margin-bottom: 30px;
+    }
+
+    .community .single_item p {
+        padding: 0px 10px;
+        margin-top: 15px;
+    }
+
+    .counting_section {
+        margin-bottom: 50px;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    .cvitae-contact .content-right .form-submit button {
+        padding: 0px 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .video_area {
+        margin-bottom: 150px !important;
+    }
+
+    .dotted_head_title h1:before {
+        position: absolute;
+        content: '';
+        width: 400px;
+        right: 180px;
+        height: 1px;
+        border: 1px dotted #ddd;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .counting_left_item {
+        text-align: justify;
+        padding: 30px 40px 30px 60px;
+    }
+
+    .video_area {
+        margin-bottom: 150px !important;
+    }
+
+    .dotted_head_title h1:before {
+        position: absolute;
+        content: '';
+        width: 400px;
+        right: 280px;
+        height: 1px;
+        border: 1px dotted #ddd;
+        bottom: 0;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    .works .single_item:nth-child(1) {
+        margin-left: 100px;
+    }
+
+    .dotted_head_title h1:before {
+        position: absolute;
+        content: '';
+        width: 400px;
+        left: 380px;
+        border: 1px solid #f3f3f3;
+        bottom: 0;
+        transition: all .6s;
+
+    }
+
+    @keyframes underline {
+        0% {
+
+            width: 0;
+            border-color: #FE766E;
+            opacity: .6;
+        }
+        100% {
+
+            width: 400px;
+            border-color: #FE766E;
+            opacity: .5;
+        }
+    }
+    .head_title h1:hover:before {
+        animation-name: underline;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        border-color: #FE766E;
+    }
+
+    .counting_left_item {
+        text-align: justify;
+        padding: 30px 40px 30px 60px;
+    }
+
+    .video_area {
+        margin-bottom: 150px !important;
+    }
+}
+
